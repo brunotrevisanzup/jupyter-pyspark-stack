@@ -1,0 +1,9 @@
+name: jupyter-pyspark
+description: PySpark Local com Jupyter Notebook
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
