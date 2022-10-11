@@ -2,8 +2,12 @@ name: jupyter-pyspark
 description: PySpark Local com Jupyter Notebook
 types:
   - app-template
-inputs:
-  - label: Project name
-    type: text
-    name: project_name
-    default: project-name
+hooks:
+  - type: run
+    trigger: after-render
+    linux:
+      - ./run_pyspark.sh
+    windows:
+      - cmd /c run_pyspark.bat
+    mac:
+      - sh ./run_pyspark.sh
