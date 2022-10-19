@@ -1,12 +1,12 @@
-# About kafka-with-python stack
+# About PySpark With Jupyter Notebook stack
 
-omece facilmente a utilizar o Kafka para desenvolver servios utilizando uma **Arquitetura voltada a eventos**.
-Use `Python` e outras ferramentas com `GUI` para facilitar seus testes, e deixar seu ambiente organizado.
+Comece facilmente a utilizar o PySpark para processamento e manipulação de dados em escala Big Data
+Use `Python` com o framework `Spark` de forma facilitada com ajuda do `Jupyter`,organizando seu ambiente de testes e facilitando a visualizacao de codigo e dados.
 
 
 ## Estrutura da Stack
-A **Stack kafka-with-python** foi desenvolvida seguindo todas boas práticas de arquitetura de software:
+A **Stack JUPYTER-PYSPARK-STACK** foi desenvolvida seguindo todas boas práticas de arquitetura de software:
 + Clean Architecture
 + Componenentes desacoplados
 
-A Stack possui uma estrutura básica, onde o template cria estrutura de arquivos, e baixa as bibliotecas necessárias. 
+A Stack possui uma estrutura básica, onde o template cria estrutura de arquivos, e baixa as bibliotecas necessárias, inicia a aplicação e disponibiliza para uso.
